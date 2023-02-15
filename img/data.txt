@@ -1,0 +1,114 @@
+INSERT INTO donate (firstname,lastname,email,phone,Food,cloth,Grocery,Medicine,Utensils,Money)
+VALUES ("raj","value","rishi@raj",9199792385,1,1,1,1,1,1);
+
+
+https://www.w3schools.com/php/func_mysqli_connect.asp
+<script>
+function display()
+{
+    var htmlString= document.getElementsByName("firstname")[0].value;
+    alert(htmlString);
+}
+</script>
+
+<?php
+function display()
+{   
+    echo htmlspecialchars($_POST["firstname"]);
+    echo "hello ".$_POST["firstname"];
+    print ("Welcome back, friend!");
+}
+if(isset($_POST["firstname"]))
+{
+   display();
+} 
+?>
+<?php
+    $host-'localhost'
+    $firstname = $['firstname'];
+    $lastname = $['lastname'];
+    $email = $['email'];
+    $phone = $['phone'];
+    $Food = $['Food']
+    $Cloth = $['Cloth'];
+    $Grocery = $['Grocery'];
+    $Medicine = $['Medicine'];
+    $Utensils = $['Utensils'];
+    $Money = $['Money'];
+//Database connection
+   $con = new mysqli("localhost","root","","test");
+   if($conn->conect_error){
+      die('connection Failed : '.$conn->connect_error);
+   }else{
+       $stmt = $conn->prepare("insert into donate(firstname,lastname,email,phone,Food,Cloth,Grocery,Medicine,Utensils,Money)
+               values(?,?,?,?,?,?,?,?,?)");
+       $stmt->bind_param("ssissssss",$firstname,$lastname,$phone,$Food,$Cloth,$Grocery,$Medicine,$Utensils,$Money);
+       $stmt->execute();
+       echo "registration Sucessfully...";
+       $stmt->close();
+       $conn->close();
+   }
+
+
+
+
+
+
+
+<?php
+    $host='localhost;
+    $user='root';
+    $pass='';
+    $db='test';
+
+    $firstname = $['firstname'];
+    $lastname = $['lastname'];
+    $email = $['email'];
+    $phone = $['phone'];
+    $Food = $['Food']
+    $Cloth = $['Cloth'];
+    $Grocery = $['Grocery'];
+    $Medicine = $['Medicine'];
+    $Utensils = $['Utensils'];
+    $Money = $['Money'];
+//Database connection
+   $con=mysqli_connect("$localhost","$root","","$test");
+   if($con){
+      echo 'connected sucessfully to test database'0
+   }else{
+       $sql="insert into donate(firstname,lastname,email,phone,Food,Cloth,Grocery,Medicine,Utensils,Money)
+               values(?,?,?,?,?,?,?,?)");
+    $query=mysqli_query($con,$sql);       
+    if($query)
+       echo "registration Sucessfully...";
+   }
+
+?/
+?/
+$host='localhost;
+    $user='root';
+    $pass='';
+    $db='test';
+
+    $firstname = $['firstname'];
+    $lastname = $['lastname'];
+    $email = $['email'];
+    $phone = $['phone'];
+    $Food = $['Food']
+    $Cloth = $['Cloth'];
+    $Grocery = $['Grocery'];
+    $Medicine = $['Medicine'];
+    $Utensils = $['Utensils'];
+    $Money = $['Money'];
+//Database connection
+   $con=mysqli_connect("$localhost","$root","","$test");
+   if($con){
+      echo 'connected sucessfully to test database'0
+   }else{
+       $sql="insert into donate(firstname,lastname,email,phone,Food,Cloth,Grocery,Medicine,Utensils,Money)
+               values(?,?,?,?,?,?,?,?)");
+    $query=mysqli_query($con,$sql);       
+    if($query)
+       echo "registration Sucessfully...";
+   }
+

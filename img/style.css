@@ -1,0 +1,533 @@
+﻿
+.header .header-top {
+    background: #01d262 none repeat scroll 0 0;
+    height: 50px;
+}
+
+.contact>p {
+    line-height: 50px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.header .header-top .contact p a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .header-top .contact p span {
+    margin-right: 45px;
+}
+
+.join-us>p {
+    background:  none repeat scroll 0 0;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .header-top .join-us p a {
+    background: grey none repeat scroll 0 0;
+    color: #fff;
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 40px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.topnav
+{
+ overflow:hidden;
+ background-color: #01d262;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color:white ;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+ text-decoration:none;
+}
+
+.main-logo {
+    margin: 10px 0;
+}
+
+.main-logo>img {
+    display: inline-block;
+}
+
+.main-logo>h2 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 11px;
+    color: #01d262;
+}
+/*header*/
+.header2{
+   /* display: flex;*/
+    /*min-height: 100vh;8/
+     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+     /*url('pic1.jpg')center/cover no-repeat fixed;/*
+    /* fleirection: column;*/
+    margin-top:auto; 
+}
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+        
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 33.33333%;
+	height : 100%;
+	float: left;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.hero .title{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 400px;
+    font-weight: bold;
+    background:black ;
+    color:white;
+
+}
+.hero-button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 400px;
+    font-weight: bold;
+    background: #01d262;
+    color:#fff;
+    cursor: pointer;
+    border: 2px solid #01d262;
+    margin-top:10px;
+  
+}
+.hero-button:hover{
+    background: red;
+    color: #fff;
+    border: none;
+    
+
+}
+.pulsate{
+    /*-webkit-*/animation: pulsate 3s ease-in-out;
+    /*-webkit-*/animation-iteration-count:infinite ;
+    opacity: .3;
+    color: white;
+}
+@-webkit-keyframes pulsate{
+    0% {
+        opacity: .3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .3;
+    }
+
+}
+
+/* End of header*/
+#about{
+    padding: 40px;
+}
+
+.about-subtitle{
+    text-transform: capitalize;
+    color: orange;
+    font-size: 25px;
+}
+.about-info{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.about-icon:hover .fas,
+.about-subtitle:hover{
+ transition: transform 2s ease, color 2s ease;
+ transform: translateY(-10px);
+    color: #cd6100;
+    cursor: pointer;
+}
+@media screen and (min-width: 576px){
+    .about-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about{
+        flex: 0 0 calc(50% - 16px);
+    }
+}
+@media screen and (min-width:972px){
+    .about{
+        flex: 0 0 calc(33.3% - 16px);
+    }
+}
+#food{
+    padding: 20px ;
+}
+.food-container{
+     max-width: 90vw;
+    margin: 0 auto;
+}
+.food-card{
+    position: relative;
+    background: linear-gradient(rgba(205, 96, 0, 0.7),rgba(205,96,0,0.7));
+    margin:20px 0;
+    color: #000;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 16px;
+    border: 1px solid orange;
+    box-shadow: 2px 3px 1px 1px #cd6100;
+}
+
+#food img{
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    transition: transform 4s;
+}
+
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 4s;
+
+}
+.img-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+    color: #000;
+    transition: opacity 4s;
+}
+.img-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.food-card:hover img{
+    opacity: 0.4;
+    transform: scale(1.3);
+}
+.food-card:hover .img-text,
+.food-card:hover  .img-footer{
+    opacity:1;
+}
+.food-btn{
+    display: inline-block;
+    background:#000;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 32px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 180px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: all 0.3s ease-in-out;
+    font-size:18px;
+    outline:none;
+}
+.food-btn:hover{
+    color: orange;
+    background:#ffff;
+    border: #000;
+    outline: none;
+}
+.fas{
+    font-size: 30px;
+}
+@media screen and (min-width: 576px){
+    .food-container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-column-gap: 16px;
+    }
+}
+@media screen and (min-width: 992px){
+    .food-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap:16px ;
+    }
+}
+/*DONATE SECTION*/
+}
+
+.donate_section p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.donate_section .for-padding {
+    padding: 87px 20px 107px;
+}
+
+.donate_section h2 {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.donate_section h2 a {
+    background: #05ce68 none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+}
+/*END OF DONATE SECTION*/
+* The footer is fixed to the bottom of the page */
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

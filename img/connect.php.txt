@@ -1,0 +1,7 @@
+<?php
+    $dbconnect=mysqli_connect("localhost","root","1234","test")
+    if(mysqli_connect_errno($dbconnect)){
+      echo "failed to connect";
+    }
+    else {echo "connection sucessful"}
+    ?/

@@ -1,0 +1,21 @@
+﻿.events_section_area .events_single {
+    margin: 40px 20px 0;
+}
+
+.events_section_area .events_single img {
+    width: 50%;
+}
+
+
+.events_section_area .events_single h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.events_section_area .events_single:hover h3 {
+    color: #01d262;
+    text-decoration: underline;
+}

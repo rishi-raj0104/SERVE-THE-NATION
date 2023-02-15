@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Enter Address"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/address_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:layout_margin="30dp"
+        android:hint="Address Line 1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/address_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/layout_bg"
+        android:hint="Address Line 2"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/address_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/layout_bg"
+        android:hint="Address Line 2"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="PIN Code"
+        android:background="@drawable/layout_bg"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_bg"
+        android:layout_gravity="center"
+        android:text="Submit" />
+</LinearLayout>

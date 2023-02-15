@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html>
+
+	<head>
+		<title>Events</title>
+		<link rel="stylesheet" href="event.css ">
+                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+<body>
+<div class="wrapper">
+        <header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone:######</a></span><span class="email"><a href="#">Email: servethenation@gmail.com</a></span></p>
+                            </div>
+                        </div>
+                            <div class="join-us">
+                                <p><a href="donate now.html ">JOIN US NOW</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                            <a href="#">
+                                <div class="main-logo">
+                                    <img src="main-logo.png " alt="">
+                                    <h2>SERVE THE NATON</h2>
+                                </div>
+                            </a>
+                        </div>
+                            <div class="topnav">
+                                    <a class="active">
+                                    <a href="index.html">Home</a>
+                                    <a href="#">About Us</a>
+                                    <a href="event.html ">Event</a>
+                                    <a href="donate now.html">Contact</a>
+                                    <a href="latestnews.html ">Latest News</a>
+		                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+				<h3><span>SERVE THE NATION</span></h3>
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					|
+					<a href="#">About Us</a>
+					|
+					<a href="event.html">Event</a>
+					|
+					<a href="latestnews.html">Latest News</a>
+                                        |
+					<a href="donate now.html">Contact Us</a>
+
+				</p>
+
+				<p class="footer-company-name">Copyright @ 2020 <a href="#">RISHI RAJ</a> | All Rights Reserved </p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>SHARDA UNIVERSITY,
+						 Bldg. No. A - 1, Sector - 1</span>
+						DELHI NCR, Greater Noida- 4007</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 #</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p style=color: #ffffff><a href="#">support@serve the nation</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p style=color:orange class="footer-company-about">
+					<span>About Serve The Nation</span>
+					The main aim of the website is to serve the nation through clothes, grocery, utensils,food or by donating some amount of money.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+    </div>
+</body>
+</html>
